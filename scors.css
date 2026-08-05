@@ -1,0 +1,160 @@
+/* vergroot standaard afmetingen van Fancybox iframe */
+.fancybox-slide--iframe .fancybox-content {width:"95%";height:"100%";max-width:95%;max-height:100%;margin: 0;}
+.fa-search-minus:before{content:"\f010"}
+.fa-search-plus:before{content:"\f00e"}
+.fancybox-wrap{pointer-events: auto !important;}
+
+/* ===============Dropdown menu============================= */
+.dropdown {position: relative;display: inline-block;}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: var(--basiskleur2);
+  min-width: 150px;
+  z-index: 1;
+}
+/* Links inside the dropdown */
+.dropdown-content a {
+  text-decoration: none;
+  display: block;
+  color:var(--basiskleur1);
+  font-weight:bold;
+  font-face:Arial;
+  line-height:2;
+}
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: var(--basiskleur1);color:var(--basiskleur2);filter: brightness(105%);}
+/* Show dropdown content on hover */
+.dropdown:hover .dropdown-content {display: block;}
+
+body .aazoekbutton{border-radius:4px;border: 1px solid grey;background-color:white;font-family:Arial;font-size:10pt;color:black;padding: 0px 2px;margin:0px 0px;}
+body .aazoekbutton:hover{background-color:var(--basiskleur1);}
+body .ggbutton{border-radius:4px;border: 1px solid grey;background-color:white;font-family:Arial;font-size:10pt;color:black;padding: 2px 6px;margin:4px 0px;}
+body .ggbuttonB{border-radius:4px;border: 2px solid grey;background-color:white;font-family:Arial;font-size:10pt;font-weight: bold;color:black;padding: 2px 6px;margin:4px 0px;}
+body .ggbuttonrood{border-radius:4px;border: 1px solid grey;background-color:white;font-family:Arial;font-size:10pt;color:red;padding: 2px 6px;margin:4px 0px;}
+body .ggbutton:hover{background-color:var(--basiskleur1);}
+body .ggbuttonrood:hover{background-color:var(--basiskleur1);}
+body .qbutton{border-radius:4px;border: 1px solid grey;background-color:white;font-family:Arial;font-size:10pt;color:black;padding: 1px 2px;margin:1px 2px;}
+body .qbutton:hover{background-color:var(--basiskleur1);}
+body .aatekst0 {color:#000000;font-size:6pt;font-family:Arial;display:block;line-height:6pt;}
+body .aatekst2 {color:#000000;font-size:9pt;font-family:Arial;display:block;line-height:10pt;}
+body .raantal{color:var(--basiskleur2);font-size:8pt;font-family:Arial;}
+body .itemtitle {font-size:11pt;font-weight:600;font-family:Arial;display:block;line-height:11pt;}
+/* Compact file-upload invoerveld */
+body .fileContainer {overflow: hidden;position: relative;background: lightgrey;border:1px solid grey;padding: .1em;cursor: pointer;}
+body .fileContainer [type=file] {cursor: inherit;display:block;font-size:1px;filter:alpha(opacity=0);
+	min-height:100%;min-width:100%;opacity:0;position:absolute;right:0;top:0;text-align: right;
+}
+body .edf {font-family:Arial;font-size:10pt;border:1px solid #dddddd;}
+body a.einfo:hover span{top:0em;right:18em;width:50em;border:2px solid #800000;border-radius:8px;}
+body a.oinfo:hover span{top:-15em;right:12em;width:50em;border:2px solid #800000;border-radius:8px;}
+body a.dinfo:hover span{bottom:-10em;right:14em;width:45em;border:2px solid #800000;border-radius:8px;}
+body a.minfo:hover span{bottom:-4em;right:12em;width:30em;border:2px solid #800000;border-radius:8px;}
+body a.linfo:hover span{bottom:2em;right:5em;width:35em;border:2px solid #800000;border-radius:8px;}
+body .inedit {font-family:Arial;font-size:10pt;border:1px solid #dddddd;background-color:#ffdfdf;}
+body .dispinlineaa{display:inline;float:left;}
+body .aapagetellerpas {color:#000000;font-family:Arial;font-size:11pt;}
+body .aapagetelleract {color:#FFFFFF;font-family:Arial;font-size:11pt;background-color:#000000;}
+body .smallaapagetellerpas {color:#000000;font-family:Arial;font-size:8pt;}
+body .smallaapagetelleract {color:#FFFFFF;font-family:Arial;font-size:8pt;background-color:#000000;}
+body .randrood{border:solid red 1px}
+body .randgeen{border:0px}
+body .selectlijst {width:170px;height:22px;}
+body .selectlijstlang {width:210px;height:22px;}
+.menuscors{font-face:Arial;font-size:12pt;text-decoration:none;color:var(--basiskleur2);}
+.menuscors:hover {filter:brightness(150%);}
+.bright{filter: hue-rotate(180deg) brightness(150%);}
+.archiefbody {font-family:Arial;font-size:10pt;margin:0px 0px 0px 0px;background-color: WhiteSmoke;}
+body .dispinline{display:inline;float:left;border-collapse:collapse;}
+body table{-moz-user-select:none;}
+body table.layoutfixed {table-layout: fixed;}
+body table.aac{border-collapse:separate;border-spacing:3px;}
+body img.thumbaac{vertical-align:middle;}
+body a.linkOndw {text-decoration:none;font-family:Arial;font-size:15px;color:#000000;}
+body a.linkOndw:hover,a.linkOndwB:hover {color:var(--basiskleur2);}
+body a.linkKader {font-family:Arial;text-decoration:underline;color:#ffffff;}
+body a.linkKader:hover {font-family:Arial;text-decoration:underline;color:#fdd7a4;}
+body a.linkKaderaa {font-family:Arial;text-decoration:underline;color:#000000;}
+body a.linkKaderaa:hover {font-family:Arial;text-decoration:underline;color:#b4ad2f;}
+body a.linkfooter {text-decoration:none;font-family:Arial;color:var(--basiskleur2);line-height:1.6;font-size:9pt;font-weight:bold;}
+body a.linkfooter:hover {text-decoration:underline;font-family:Arial;color:var(--basiskleur2);font-size:9pt;font-weight:bold;}
+body a.deconone{position:relative;text-decoration:none;}
+body a.deconone span{display:none;z-index:34;}
+body a.deconone:hover{z-index:35;}
+body a.deconone:hover span{z-index:34;display:block;position:absolute;border-style:solid;border-width:1px;border-color:#8000000;background-color:#ffffcc;color:#000;text-align:left;padding:6px;}
+body a.info:hover span{top:-2em;left:3em;width:25em;border:2px solid #800000;border-radius:8px;}
+body a.vinfo:hover span{top:2em;left:-18em;width:20em;border:2px solid #800000;border-radius:8px;}
+body a.info2:hover span{top:2em;left:-1em;width:20em;border:2px solid #800000;border-radius:8px;}
+body a.ainfo:hover span{top:2em;right:8em;width:40em;border:2px solid #800000;border-radius:8px;}
+body .bcollapse {border-collapse:collapse;} 
+body .bgzoek {background-color:var(--basiskleur1);}
+body .combo {position:absolute;}
+body .combo option {display:block;width:100%;}.fixedbodysize {width:1044px;}
+body .combo input {z-index:0;font-size:9pt;font-family:Arial;}
+body .combo2 {position:absolute;top:400px;z-index:0;display:none;}
+body .copynotice{font-size:9px;}
+body .editlijst {width:215px;height:18px;}
+body .fotobg{background-color:#efefef;}
+body .fotobgocr{background-color:#ffff00;}
+body .geendeco {text-decoration:none;}
+body .geendeco:hover {text-decoration:none;}
+body .geenwrap{white-space:nowrap;}
+body .handje {cursor:pointer;}
+body .invulveld, .invulz, .invulj, .invula, .zoekinvul{
+	font-size:9pt;
+	font-family:Arial;
+	height:22px;
+	border-radius:4px;
+	border:1px solid #800000;
+	padding-left:4px;
+	padding-right:4px;
+	padding-top:1px;
+	padding-bottom:1px;
+	background-color:#FEFEFFEF;
+}
+body .invulz{width:240px;height:18px;}
+body .invulj{width:47px;height:18px;}
+body .invula{width:65px;height:18px;}
+body .zoekinvul {width:250px;height:22px;}
+body .losseletter{font-weight:bold;color:var(--basiskleur2);}
+body .markeer {background-color:#FFFF00;color:#000000;}
+body .nullen {color:#ffffff;} 
+body .onzichtbaar{display:none;}
+body .pagetellerpas {color:#000000;font-family:Arial;font-size:12pt;}
+body .pagetelleract {color:#FFFFFF;font-family:Arial;font-size:12pt;background-color:#000000;}
+body .tekst1 {color:#000000;font-size:8pt;font-family:Arial;}
+body .tekst2 {color:#000000;font-size:9pt;font-family:Arial;}
+body .tekstgridtitel {color:#000000;font-size:10pt;font-family:Arial;display:block;line-height:11pt;}
+body .tekst3 {color:#000000;font-size:12pt;font-family:Arial;}
+body .tekst4 {color:#000000;font-size:14pt;font-family:Arial;}
+body .viak{border-style:solid;border-width:2px;border-color:darkred;}
+body .vipa{border-style:solid;border-width:0px;}
+body .vmidden{margin-left:auto;margin-right:auto;vertical-align: middle;}
+body .vtop{vertical-align: top;}
+body .vbottom{vertical-align: bottom;}
+body .zichtbaar{display:block;}
+body .avz {border-radius:4px;font-family:Arial;}
+
+/* Boekencollectie */
+.bbTitel{width:740px;border-radius:4px;}
+.bbAuteur{width:300px;border-radius:4px;}
+.bbUitgever{width:300px;border-radius:4px;}
+.bbID{width:300px;border-radius:4px;}
+.bbBlz{width:300px;border-radius:4px;}
+.bbISBN{width:300px;border-radius:4px;}
+.bbJaar{width:40px;border-radius:4px;}
+.bbopm{width:300px;border-radius:4px;}
+.bbedf {border-radius:4px;font-family:Arial;font-size:7pt;}
+.bbz {border-radius:4px;font-family:Arial;}
+body td.bbcell{width:padding:0px 3px 0px 4px;}
+.bbthumb{position:relative;top:3px;}
+body .bbbutton{border-radius:4px;border: 1px solid grey;background-color:white;font-family:Arial;font-size:8pt;color:black;padding: 2px 2px;margin:2px 0px;}
+body .bbbutton:hover{background-color:#c9e3e8;}
+
+/* Tijdschriften collectie */
+body .ttbutton2 {background-color:#999999;border-radius:4px;font-weight:500;color:white;}
+body table.ttc,td.ttc {border: 0px solid white}
+body img.thumbttc{display:block;margin-left:auto;margin-right:auto;}
+body a.ttinfo:hover span{top:-3em;left:2em;width:26em;border:2px solid #25346d;border-radius:4px;}
+body .ttdonkerblauw{color:#25346d;}
+body .markeerblauw {background-color:#c9e3e8;;color:#000000;}

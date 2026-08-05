@@ -1,0 +1,117 @@
+<?php
+// SCORS Conditions en Disclaimer
+//
+// Copyright ©2024 R.F.J. van Linden (rob@vlinden.com)
+//
+// Permission is hereby granted, free of charge and for
+// non-commercial use only, to any person obtaining a
+// copy of this software and associated documentation
+// files (the "Software"), to deal in the Software without
+// restriction, including // without limitation the rights
+// to use, copy, modify, merge, publish, and/or distribute
+// copies of the Software, and to // permit persons to whom
+// the Software is furnished to do so, subject to the
+// following conditions:
+//
+// The above copyright notice and this permission notice
+// shall be included in all copies or substantial portions
+// of the Software.
+// The Software must only be used for non-commercial purposes.
+//
+// THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY
+// KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO
+// THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR
+// PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS
+// OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR
+// OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR
+// OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE
+// SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+//redirect HTTP naar HTTPS
+if (! isset($_SERVER['HTTPS']) or $_SERVER['HTTPS'] == 'off') {
+    $redirect_url = "https://" . $_SERVER['HTTP_HOST'];
+    header("Location: $redirect_url");
+    exit();
+}
+?>
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Frameset//EN" "http://www.w3.org/TR/html4/frameset.dtd">
+<html><head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="author" content="Rob van Linden, R.F.J. van Linden">
+<title>Simpel COllectie Registratie Systeem</title>
+<style>:root {--basiskleur1: #bcebfc;} :root {--basiskleur2: #5465ab;}</style>
+<link rel="stylesheet" type="text/css" href="scors.css" /> 
+</head>
+
+<body class="archiefbody">
+
+<script type="text/javascript">var sc_project=13230009; var sc_invisible=1; var sc_security="80a060fd"; </script>
+<script type="text/javascript" src="https://www.statcounter.com/counter/counter.js" async></script>
+
+	<br><br>
+	<div style="max-width:1055px;margin:auto;background-color:#FFFFFF; border-color:#afafaf;border-left-width:0px; border-right-width:0px; border-top-style:solid; border-top-width:2px; border-bottom-width:0px;">
+
+		<!-- KOP EN NAVIGATIE-->
+
+		<table border="0" class="bcollapse" cellpadding="0" cellspacing="0" width="100%"><tr><td width="125" align="right">
+		<img src="logoscors.png" valign="top" height="25">
+		</td><td align="left"><H3>&nbsp;&nbsp;<i>Simpel COllectie Registratie Systeem</i>&nbsp;&nbsp;</H3>
+		</td></tr></table>
+
+		<table border="0" class="bcollapse bgzoek" cellpadding="0" cellspacing="0" width="100%"><tr><td align="right">
+		<H3><a class="menu" target="_blank" href="SCORS HANDLEIDING.pdf">Handleiding</a>&nbsp;&nbsp;<a class="menu" href="scors.zip">Download</a>&nbsp;&nbsp;</H3>
+		</td></tr></table>
+
+		<div style="margin:0px 75px;max-width:1055px;" align="left">
+
+
+			<!-- INFO BLOK -->
+			<H3><b>Over SCORS (Simpel COllectie Registratie Systeem)</b></H3>
+
+			De webapplicatie SCORS is een collectie registratie systeem met modules voor een <b>Hoofdcollectie</b>, <b>Boekencollectie</b>, <b>Tijdschriftencollectie</b>, <b>Audio-Videocollectie</b> en <b>Bidprentjescollectie</b>.
+			Het is gericht op kleinere (erfgoed)organisaties, gratis voor niet-commercieel gebruik en ook als zodanig bedoeld. Het ‘Simpel’ heeft vooral betrekking op de invoer van gegevens.
+			Veel bestaande systemen zijn voor kleinere organisaties, zeker als die vooral op al wat oudere vrijwilligers drijven, te ingewikkeld of omslachtig.<br>
+			
+			SCORS vereist een Windows computer die als webserver is ingericht. Op deze server doet u de administratie van de instellingen en voert u gegevens in,
+			zoals foto’s en bijbehorende informatie.
+			U kunt daarvoor administratie en editor accounts aanmaken. Ook kunnen leden accounts worden aangemaakt die alleen kunnen raadplegen.<br><br>
+
+			Bij de ingevoerde records van de Hoofdcollectie en de Bidprentjescollectie kan onderscheid worden gemaakt tussen Publieke records (voor elke bezoeker zichtbaar), Leden records
+			(alleen zichtbaar voor ingelogde bezoekers) en Privé records (alleen zichtbaar voor de Editors en Administrator).<br><br>
+
+			De presentatie van de collectie modules kan op de server worden gedaan maar ook worden geïntegreerd in een pagina van een andere (externe) website, zoals b.v. een op Wordpress gebaseerde site.<br><br>
+			
+			Zie voor verdere details en installatiegegevens <a href="SCORS HANDLEIDING.pdf" target="_blank">deze documentatie</a>.<br><br>
+		
+			<H3><b>Conditions and Disclaimer</b></H3>
+			Copyright&nbsp;&copy;<?php echo date('Y') ?>&nbsp;R.F.J. van Linden (rob@vlinden.com)<br><br>
+
+			Permission is hereby granted, free of charge and for non-commercial use only, to any person obtaining a copy
+			of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights
+			to use, copy, modify, merge, publish, and/or distribute	copies of the Software, and to permit persons to whom the Software is
+			furnished to do so, subject to the following conditions:<br><br>
+
+			The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.<br>
+			The Software must only be used for non-commercial purposes.<br>
+			<br>
+
+			THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+			IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+			FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+			AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+			LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+			OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+			SOFTWARE.<br><br>
+		</div>
+			
+		<!-- FOOTER -->		
+					
+		<table border="1" width="100%" style="border-collapse: collapse" bordercolor="#E1E1E1"><tr><td>
+			<br>
+			<div align="right"><font size="1">SCORS Info, Voorwaarden en Disclaimer&nbsp;&copy;<?php echo date('Y') ?>&nbsp;RFJ van Linden</font></div>
+		</td></tr></table>
+
+	</div>
+		
+</body></html>
